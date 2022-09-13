@@ -71,3 +71,66 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/*-------------------------------------------------------------------------------------------*/
+div-center{
+  height: 100%;
+  width: 100%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 1%;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.bgcolor {
+   /* Background image , replace shit after : with image path to use image*/
+   background-image: linear-gradient(135deg, #2AF598, #08AEEA);  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: rgb(84, 84, 84);
+  /* Add a font */
+  font-family: "Avanta Garde", Times, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+
