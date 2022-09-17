@@ -244,7 +244,7 @@ body {
 .card__content {
 	text-align: center;
 	position: relative;
-	padding: 20vh 5vh;
+	padding: 30vh 5vh;
 	transition: transform 2s;
 	transform-style: preserve-3d;
 }
@@ -252,9 +252,7 @@ body {
 .card:hover .card__content {
 	transform: rotateY(-180deg);
 }
-.card_back:hover .card__content {
-	transform: rotateY(180deg);
-}
+
 .card__front,
 .card__back {
 	position: absolute;
