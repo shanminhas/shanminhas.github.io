@@ -1,1 +1,3 @@
-console.log('Hello, coming soon')
+console.log("Hello, coming soon");
+
+document.addEventListener("touchstart", function () {}, true);
