@@ -239,6 +239,7 @@ body {
 
 .card {
 	width: 70vw;
+	height: 100vh;
 }
 
 .card__content {
